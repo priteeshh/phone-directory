@@ -1,14 +1,8 @@
 import React from 'react';
-const headerStyle = {
-    background : '#000',
-    color : '#fff',
-    padding : 20,
-    textAlign : 'center',
-    textTransform: 'uppercase'
-}
+import './header.css';
 const Header = function () {
     return (
-        <div style={headerStyle}>
+        <div className="header">
             Phone Directory
         </div>
     )
